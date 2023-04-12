@@ -1,0 +1,26 @@
+name: deep_learn
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - ipython
+  - ipython_genutils
+  - matplotlib
+  - matplotlib-base
+  - notebook
+  - numpy
+  - pandas
+  - pillow
+  - pip
+  - plotly
+  - python=3.6.13
+  - scikit-learn
+  - scipy=1.5.2
+  - seaborn
+  - tornado
+  - tqdm
+
+  - pip:
+    - optuna
+    - opencv-python==3.4.16.57
